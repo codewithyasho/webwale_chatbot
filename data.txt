@@ -1,0 +1,268 @@
+[TITLE OF WEBWALE AGENCY WEBSITE]
+=== index.html ===
+Title: WebWale - Web Design and Development Agency
+Navigation: Menu | Services | Work | Packages | Testimonials | Contact us
+
+[BODY OF WEBWALE AGENCY WEBSITE]
+Hero
+Badge: Web design + development studio
+Headline: We design and build websites that make brands feel premium.
+Copy: WebWale is a agency blending strategy, design, and development in one team. We build fast, polished websites that turn visitors into clients.
+Actions: See our work | Start a project
+
+[SERVICES OF WEBWALE AGENCY WEBSITE]
+Services
+Heading: Agency services built for modern brands
+Subtext: We help brands grow online using design + tech + SEO.
+Service list:
+- Brand + web design
+- Web development
+- App development
+- Ecommerce builds
+- Landing pages
+- Content + copy
+- SEO + performance
+
+[PAST WORK AND EXPERIENCE OF WEBWALE AGENCY WEBSITE]
+Work
+Heading: Selected work that moves the needle
+Subtext: A few recent builds from our agency. Every project blends strategy, design polish, and technical performance. We turn businesses into online brands.
+Checklist:
+- Strategy and information architecture
+- Design systems and component libraries
+- Development, SEO, and launch support
+
+[CASE STUDIES OF WEBWALE AGENCY WEBSITE]
+Case studies
+- greatgraphics.in — Ranked #1 on Google | Professional branding, logo design, and premium packaging solutions in Jalgaon.
+- propeers.in — Learning management system for educational institutions
+- theseventhsip.online — Increased engagement by 150% | Built online food ordering system
+- nexanimation.studio — Ranked #1 on Google | Interactive portfolio for a creative agency.
+- Play Store - Ghar Kharcha — 1.5k+ downloads | Family expense tracking app for Android
+- wanderlust.xyz — Built a travel booking system | Razorpay Payment Integration
+- Play Store - Bhagavad Gita : As It Is — 1k+ downloads | Bhagavad Gita in Hindi ,English & 14 other languages
+- tusharsurekhawaghamare.in — Ranked #1 on Google | Built portfolio for actor brand
+- yashodeep.me — Personal portfolio site for a developer.
+
+[PACKAGES & PRICING OF WEBWALE AGENCY WEBSITE]
+Packages
+[STARTER PACKAGE & FEATURES]
+Heading: Packages
+Subtext: Choose your plan that fits your needs.
+Starter (Basic)
+- Price: ₹4,999
+- Note: T&C apply
+- Design + Development
+- Portfolio Website
+- Database Integration
+- Basic SEO + Analytics
+- AI Integration
+- Hosting + Domain included
+- 24/7 Support
+- 1 week delivery
+
+[FULL STACK PACKAGE & FEATURES]
+Full Stack (Most popular)
+- Price: ₹14,999
+- Note: T&C apply
+- Design + Development + E-commerce
+- Google Authentication
+- Payment Integration
+- AI tools (chatbots, automation) & Integrations
+- SEO + analytics
+- Ads Management
+- Hosting + Domain included
+- Mobile App Development
+- 24/7 Support
+- 3 week delivery
+
+[APP DEVELOPMENT PACKAGE & FEATURES]
+App Development (Custom)
+Action: Contact developers
+- Android + iOS apps
+- UI/UX design system
+- API + backend integration
+- Authentication + payments
+- Push notifications
+- Play Store + App Store launch
+- Ongoing maintenance
+
+[TESTIMONIALS AND REVIEWS OF WEBWALE AGENCY WEBSITE]
+Testimonials
+Heading: Clients who love the craft
+Subtext: Founders and individuals who trusted WebWale to deliver.
+- 5 Stars "WebWale felt like an in-house team. The site launched early and our leads doubled in the first month." — Pritesh Phuge, Founder, The Seventh Sip
+- 5 Stars "The design system was clean, modern, and easy for our team to scale. We finally look as premium as we feel." — Tushar Waghmare, Actor
+- 5 Stars "We needed a fast launch and a site that could grow. They nailed the UX, speed, and messaging on the first pass." — Yashodeep Hundiwale, AI Engineer
+- 5 Stars "The LMS they built for us is intuitive and easy to manage. Our students love the clean design and smooth experience." — Sahil Kumar, Student @ Propeers
+- 5 Stars "The portfolio site they built for me is stunning and got me noticed by top agencies. Highly recommend!" — Vinod Chouhan, Founder, Great Graphics
+- 5 Stars "Great App for daily expense tracking Ghar Kharcha is very simple and easy to use. The interface is very clean,simple and beginner-friendly." — Durgesh Mahajan, Founder, Ghar Kharcha
+- 5 Stars "It is so useful for this and upcoming generations because now a days we learn or read about another culture but Hindu culture is getting diminished nowdays Thank you so much sir it is very useful!!😃" — Saee Amrale, User, Bhagavad Gita
+
+CTA
+Headline: Ready to build a site people remember?
+Copy: Tell us about your goals and we will map the right package and timeline.
+Actions: View packages | Email us
+
+Footer
+WebWale
+A boutique studio for web design and development.
+Studio: Services | Work | Packages | Testimonials
+Contact: webwalesolutions@gmail.com | Contact us
+Legal: Terms & Conditions | Privacy & Policy | Refund Policy
+(c) 2026 WebWale. All rights reserved.
+
+[PRIVACY POLICY OF WEBWALE AGENCY WEBSITE]
+=== privacy.html ===
+Title: Privacy & Policy - WebWale
+Navigation: Menu | Services | Work | Packages | Testimonials | Contact us
+
+Legal hero
+Badge: Legal
+Headline: Privacy & Policy
+Copy: This policy explains what data we collect, how we use it, and the choices you have when working with WebWale.
+Meta: Last updated: May 7, 2026 | Applies to: webwale.web.app | Questions: webwalesolutions@gmail.com
+
+Legal content
+Information we collect
+- Contact details and project information you submit.
+- Billing or payment details for invoicing purposes.
+- Usage data such as pages visited and device type.
+
+How we use data
+- Deliver services, manage projects, and provide support.
+- Improve our website, offers, and communications.
+- Comply with legal and accounting obligations.
+
+Cookies and analytics
+- We use cookies and analytics to understand usage trends.
+- You can disable cookies in your browser settings.
+- Some analytics tools are provided by trusted partners.
+
+Sharing and disclosure
+- We do not sell your personal data.
+- Data is shared only with vendors needed to deliver services.
+- We may disclose data if required by law.
+
+Security and retention
+- We use reasonable safeguards to protect information.
+- Data is retained only as long as necessary for services.
+- You can request deletion once the project is complete.
+
+Your rights
+- Request access, corrections, or deletion of your data.
+- Opt out of non-essential communications at any time.
+- Contact us for help with privacy requests.
+
+Footer
+WebWale
+A boutique studio for web design and development.
+Studio: Services | Work | Packages | Testimonials
+Contact: webwalesolutions@gmail.com | Contact us
+Legal: Terms & Conditions | Privacy & Policy | Refund Policy
+(c) 2026 WebWale. All rights reserved.
+
+[REFUND POLICY OF WEBWALE AGENCY WEBSITE]
+=== refund.html ===
+Title: Refund Policy - WebWale
+Navigation: Menu | Services | Work | Packages | Testimonials | Contact us
+
+Legal hero
+Badge: Legal
+Headline: Refund Policy
+Copy: Our refund policy is designed to be fair and transparent for project-based services. Review the guidelines below before placing an order.
+Meta: Last updated: May 7, 2026 | Applies to: WebWale projects | Questions: webwalesolutions@gmail.com
+
+Legal content
+Eligibility window
+- Refunds may be requested before work begins or within 48 hours of kickoff.
+- Once production starts, refunds are evaluated by milestone.
+- Completed work is billable and non-refundable except as stated under client cancellations.
+
+Deposits and milestones
+- Deposits reserve project time and are non-refundable.
+- The token amount is not refundable at any cost.
+- Milestone payments cover work completed up to that stage.
+- Any eligible refund excludes third-party fees.
+
+Client cancellations
+- Notify us in writing to cancel a project.
+- We will invoice for completed work before cancellation.
+- If the project is canceled after it is done or ready, we keep 50% of the total amount plus the token amount, and refund the remaining balance.
+- Unused project time may be credited to a future booking.
+
+Refund process
+- Email us with your project name and refund request.
+- We will confirm eligibility within 5 business days.
+- Approved refunds are issued to the original payment method.
+
+Chargebacks
+- Please contact us before filing a chargeback.
+- Chargebacks pause work and may delay future support.
+- We provide documentation for completed milestones.
+
+Contact
+- Email: webwalesolutions@gmail.com
+- WhatsApp: +91 86050 60204
+
+Footer
+WebWale
+A boutique studio for web design and development.
+Studio: Services | Work | Packages | Testimonials
+Contact: webwalesolutions@gmail.com | Contact us
+Legal: Terms & Conditions | Privacy & Policy | Refund Policy
+(c) 2026 WebWale. All rights reserved.
+
+[TERMS & CONDITIONS OF WEBWALE AGENCY WEBSITE]
+=== terms.html ===
+Title: Terms & Conditions - WebWale
+Navigation: Menu | Services | Work | Packages | Testimonials | Contact us
+
+Legal hero
+Badge: Legal
+Headline: Terms & Conditions
+Copy: These terms outline how WebWale delivers projects, handles payments, and protects both client and studio. Please review before starting a project.
+Meta: Last updated: May 7, 2026 | Applies to: WebWale services | Questions: webwalesolutions@gmail.com
+
+Legal content
+Scope of work
+- Project scope is defined in the proposal or statement of work.
+- Changes beyond scope require written approval and may affect cost.
+- Timelines depend on feedback and asset delivery from the client.
+
+Payments
+- Work begins after the initial deposit is received.
+- Package selection requires a token amount: INR 999 for Starter and INR 1,999 for Full Stack, applied toward the total amount.
+- Milestone invoices are due within the timeline in the proposal.
+- Late payments may pause the project until cleared.
+
+Client responsibilities
+- Provide content, brand assets, and access in a timely manner.
+- Ensure you have rights to any supplied text, images, or media.
+- Review and approve deliverables within agreed timelines.
+
+Revisions
+- Revision rounds are outlined in the proposal.
+- Extra rounds or new directions may be billed separately.
+- Feedback should be consolidated to keep timelines on track.
+
+Ownership and usage
+- Final files transfer to the client after full payment.
+- WebWale may showcase completed work in our portfolio.
+- Third-party licenses remain subject to their own terms.
+
+Limits and termination
+- We do not guarantee rankings, traffic, or sales outcomes.
+- Either party may terminate with written notice.
+- Work completed to date is billable per the refund policy.
+
+Footer
+WebWale
+A boutique studio for web design and development.
+Studio: Services | Work | Packages | Testimonials
+Contact: webwalesolutions@gmail.com | Contact us
+Legal: Terms & Conditions | Privacy & Policy | Refund Policy
+(c) 2026 WebWale. All rights reserved.
+
+
+

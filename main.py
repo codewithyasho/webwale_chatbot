@@ -1,0 +1,85 @@
+from langchain_classic.chains.combine_documents import create_stuff_documents_chain
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_huggingface.embeddings import HuggingFaceEmbeddings
+from langchain_classic.chains import create_retrieval_chain
+from langchain_community.document_loaders import TextLoader
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_community.vectorstores import FAISS
+from langchain_ollama import ChatOllama
+from langchain_groq import ChatGroq
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
+
+def main():
+
+    embeddings = HuggingFaceEmbeddings(
+        model_name="sentence-transformers/all-MiniLM-L6-v2")
+
+    try:
+        print("loading existing FAISS index...")
+        vectorstore = FAISS.load_local(
+            "faiss_index", embeddings, allow_dangerous_deserialization=True)
+    except Exception as e:
+        print("No existing FAISS index found. Creating a new one...")
+        # Load and split documents
+        loader = TextLoader("data.txt")
+        documents = loader.load()
+
+        text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=500, chunk_overlap=100)
+        splitted_docs = text_splitter.split_documents(documents)
+
+        # Create and save FAISS index
+        vectorstore = FAISS.from_documents(splitted_docs, embeddings)
+        vectorstore.save_local("faiss_index")
+
+    retriever = vectorstore.as_retriever(
+        search_type="mmr",
+        search_kwargs={
+            "k": 3,
+
+            "fetch_k": 5,  # it gives 5 candidates, but only pick the 3 most diverse ones
+
+            "lambda_mult": 0.5  # 1.0 = Pure similarity, 0.0 = Pure diversity
+        }
+    )
+
+    llm = ChatGroq(model="openai/gpt-oss-120b", temperature=0.2)
+
+    # The chain expects {context} and {input}
+    prompt = ChatPromptTemplate.from_template("""
+        You are a legal assistant. You know all the legal documents provided in the context related to the WebWale agency.
+        Use the following retrieved context to answer the question related to the WebWale agency. 
+        If you don't know the answer, say you don't know. Be concise and to the point.
+
+        <context>
+        {context}
+        </context>
+
+        Question: {input}
+    """)
+
+    # THE CHAIN
+
+    document_chain = create_stuff_documents_chain(llm, prompt)
+    rag_chain = create_retrieval_chain(retriever, document_chain)
+
+    return rag_chain
+
+
+if __name__ == "__main__":
+    rag_chain = main()
+
+    print("\n🚀 RAG System Ready! (Type '0' to exit)")
+    while True:
+        user_query = input("\nYou: ")
+        if user_query == "0":
+            break
+
+        response = rag_chain.invoke({
+            "input": user_query
+        })
+
+        print(f"\n🧠 AI: {response['answer']}")
