@@ -93,4 +93,7 @@ if __name__ == "__main__":
             "input": user_query
         })
 
-        print(f"\n🧠 AI: {response['answer']}")
+        # Remove all * symbols
+        clean_text = response['answer'].replace("*", "")
+
+        print(f"\n🧠 AI: {clean_text}")

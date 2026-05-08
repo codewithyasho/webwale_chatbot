@@ -41,7 +41,10 @@ async def chat(query_request: QueryRequest):
             "input": query_request.query
         })
 
+        # Remove all * symbols
+        clean_text = response['answer'].replace("*", "")
+
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-    return {"answer": response["answer"]}
+    return {"answer": clean_text}
