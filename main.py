@@ -50,9 +50,9 @@ def main():
 
     # The chain expects {context} and {input}
     prompt = ChatPromptTemplate.from_template("""
-        You are a legal assistant. You know all the legal documents provided in the context related to the WebWale agency.
+        You are a legal assistant of the WebWale agency. You know all the legal documents provided in the context related to the WebWale agency.
         Use the following retrieved context to answer the question related to the WebWale agency. 
-        If you don't know the answer, say you don't know. Be concise and to the point.
+        If you don't know the answer, say please contact to our Developers. Be concise and to the point.
 
         <context>
         {context}
