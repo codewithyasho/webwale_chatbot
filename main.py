@@ -28,7 +28,7 @@ def main():
         documents = loader.load()
 
         text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=500, chunk_overlap=100)
+            chunk_size=800, chunk_overlap=100)
         splitted_docs = text_splitter.split_documents(documents)
 
         # Create and save FAISS index
@@ -38,9 +38,9 @@ def main():
     retriever = vectorstore.as_retriever(
         search_type="mmr",
         search_kwargs={
-            "k": 3,
+            "k": 4,
 
-            "fetch_k": 5,  # it gives 5 candidates, but only pick the 3 most diverse ones
+            "fetch_k": 5,  # it gives 5 candidates, but only pick the 4 most diverse ones
 
             "lambda_mult": 0.5  # 1.0 = Pure similarity, 0.0 = Pure diversity
         }

@@ -1,5 +1,4 @@
 [TITLE OF WEBWALE AGENCY WEBSITE]
-=== index.html ===
 Title: WebWale - Web Design and Development Agency
 Navigation: Menu | Services | Work | Packages | Testimonials | Contact us
 
@@ -23,7 +22,7 @@ Service list:
 - Content + copy
 - SEO + performance
 
-[PAST WORK AND EXPERIENCE OF WEBWALE AGENCY WEBSITE]
+[PAST PROJECTS AND WORK EXPERIENCE OF WEBWALE AGENCY WEBSITE]
 Work
 Heading: Selected work that moves the needle
 Subtext: A few recent builds from our agency. Every project blends strategy, design polish, and technical performance. We turn businesses into online brands.
@@ -113,7 +112,6 @@ Legal: Terms & Conditions | Privacy & Policy | Refund Policy
 (c) 2026 WebWale. All rights reserved.
 
 [PRIVACY POLICY OF WEBWALE AGENCY WEBSITE]
-=== privacy.html ===
 Title: Privacy & Policy - WebWale
 Navigation: Menu | Services | Work | Packages | Testimonials | Contact us
 
@@ -163,7 +161,6 @@ Legal: Terms & Conditions | Privacy & Policy | Refund Policy
 (c) 2026 WebWale. All rights reserved.
 
 [REFUND POLICY OF WEBWALE AGENCY WEBSITE]
-=== refund.html ===
 Title: Refund Policy - WebWale
 Navigation: Menu | Services | Work | Packages | Testimonials | Contact us
 
@@ -214,7 +211,6 @@ Legal: Terms & Conditions | Privacy & Policy | Refund Policy
 (c) 2026 WebWale. All rights reserved.
 
 [TERMS & CONDITIONS OF WEBWALE AGENCY WEBSITE]
-=== terms.html ===
 Title: Terms & Conditions - WebWale
 Navigation: Menu | Services | Work | Packages | Testimonials | Contact us
 
