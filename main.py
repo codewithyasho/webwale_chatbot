@@ -50,9 +50,20 @@ def main():
 
     # The chain expects {context} and {input}
     prompt = ChatPromptTemplate.from_template("""
-        You are a legal assistant of the WebWale agency. You know all the legal documents provided in the context related to the WebWale agency.
+        You are the official AI assistant of WebWale, a web design and development agency. 
+        Your job is to answer user questions ONLY using the provided context related to:
+        - Services
+        - Pricing
+        - Packages
+        - Refund Policy
+        - Privacy Policy
+        - Terms & Conditions
+        - Testimonials
+        - Contact Information
+        - Projects and case studies
+
         Use the following retrieved context to answer the question related to the WebWale agency. 
-        If you don't know the answer, say please contact to our Developers. Be concise and to the point.
+        If you don't know the answer, say please contact to our Developers regarding your query. Be concise and to the point.
 
         <context>
         {context}
